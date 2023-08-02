@@ -1,0 +1,30 @@
+.MuiModal-root {
+    overflow-y: auto;
+}
+
+.content-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-modal img{
+    object-fit: contain;
+    border-radius: 10px;
+}
+.tagline{
+    margin-top:10px;
+    text-align: center;
+}
+.overview{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    padding:1rem;
+    box-shadow: 0 0 15px gray;
+    margin:0.5rem;
+    border-radius:10px;
+}
+.video{
+    margin:1rem 0!important;
+    width:100%;
+}
